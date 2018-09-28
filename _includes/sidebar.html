@@ -1,0 +1,29 @@
+<header>
+	<nav>
+	<div class="site-title"><a href="{{ site.baseurl }}/">Chris </br> Williams</a></div>
+		{% for my_page in site.pages %}
+			<div class="category">
+			{% if page.title != my_page.title %}
+				<a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+			{% else %}
+				<span style="background: #fce234;">{{ my_page.title }}</span>
+			{% endif %}
+			</div>
+			{% if my_page.title == "portfolio" %}
+				<div class="menu-portfolio">	
+					{% assign schools = "University of Waterloo, Harvard/MIT, McMaster University" | split: ", " %}
+					{%for school in schools %}
+						<div class="sub-category">{{ school }}</div>
+						<ul>
+						{% assign projects = site.projects | where: "school", school | sort: "order" %}
+						{% for project in projects %}
+							<li><a href="{{ project.url | prepend: site.baseurl }}"> {{ project.title  }} </a></li></br>
+						{% endfor %}
+						</ul>
+					{% endfor %}
+				</div>
+			{% endif %}
+		{% endfor %}
+		
+	</nav>
+</header>

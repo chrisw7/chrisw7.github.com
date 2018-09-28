@@ -1,0 +1,151 @@
+---
+---
+
+$body-width: 640px;
+$menu-width: 220px;
+$medium-size: 16px;
+
+/*---   General  ---*/
+
+html {
+	
+}
+
+body {
+    margin: 40px auto 80px 40px;
+    width: $body-width;
+	position: relative;
+	line-height: 1.6;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.category {
+	font-weight: bold;
+	padding: 2px 0px 0px 0px;
+  }
+
+/* 
+.sub-category, .subtitle {
+  font-weight: bold;
+}
+*/
+
+/*---   Sidebar   ---*/
+
+
+header .site-title{
+	font-family: "Freight Sans Bold", "Freight Sans Bold", sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 1;
+	margin-bottom: 30px;
+}
+
+header nav {
+
+	float: left;
+	max-width: $menu-width;
+    line-height: 1.8;
+	font-size: 12px;
+	/*margin-bottom: 40px;*/
+
+	a {
+      text-decoration: none;
+	  color:#000;
+	}
+	
+	.category a:hover {
+		color: #222222;
+		text-decoration: none;
+		background: #fce234;
+	}
+
+	
+	ul {
+	  margin: 0 0 10px 0;
+	  padding: 0;
+	  list-style: none;
+	  
+	  li a {color: #999;}
+	}
+	
+	.menu-portfolio {
+	  margin: 5px 0px 0px 15px;
+	}
+}
+
+
+/*---   Portfolio Grid   ---*/
+
+.page-content	{
+	margin-left: 220px;
+	
+	a {
+      text-decoration: none;
+      color: #999;
+	}
+}
+
+.school-group {
+  width: 100%;
+  max-height: 400px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  /*justify-content: space-between;*/
+}
+
+.grid {
+	
+	width: $body-width;
+	display: inline-block;
+}
+
+/*
+.grid > div,  {
+  max-width: 48%;
+}
+*/
+
+.tile-big{
+  width:350px;
+  
+  img, .caption {
+    margin-right: 0px;
+  }  
+}
+
+.tile-small {
+  width:200px;
+  height:200px;
+  
+  img, .caption {
+    margin-left: 10px; /*fix for rows with no tile-big*/ 
+  }  
+}
+
+.small-img {
+	/*width: 80%;*/
+	display:block;
+}
+
+/*---   Lists & Links   ---*/
+	
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+      text-decoration: none;
+      color: #999;
+}
+
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}

@@ -1,0 +1,15 @@
+# basic options
+title: Chiristopher Williams
+author: Chris
+email: chris.w.2@live.com
+description: A wonderful site
+github_username:  chrisw7
+
+collections:
+   projects:
+      output: true
+      permalink: /:path
+
+# Build settings
+markdown: kramdown
+#theme: minima
