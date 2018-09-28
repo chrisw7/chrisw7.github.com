@@ -4,6 +4,7 @@ author: Chris
 email: chris.w.2@live.com
 description: A wonderful site
 github_username:  chrisw7
+baseurl: "/portfolio"
 
 collections:
    projects:
