@@ -4,7 +4,7 @@ layout: page
 school: University of Waterloo
 order: 2
 years: Spring 2017 - Spring 2018
-tile: mems.png
+img: mems.png
 links:
   - "[BBC - Close-Up: Swimming in Berne’s fast-flowing city river](http://www.bbc.co.uk/news/world-europe-10893835)"
 ---

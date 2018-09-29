@@ -4,12 +4,11 @@
 $body-width: 640px;
 $menu-width: 220px;
 $medium-size: 16px;
+$uw-color: #000;
+$mit-color: #cd143c;
+$mc-color: #ee7600;
 
 /*---   General  ---*/
-
-html {
-	
-}
 
 body {
     margin: 40px auto 80px 40px;
@@ -17,38 +16,57 @@ body {
 	position: relative;
 	line-height: 1.6;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	
+	.uw {color: $uw-color;}
+	.mit {color: $mit-color;}
+	.mc {color: $mc-color;}
 }
 
 .category {
 	font-weight: bold;
 	padding: 2px 0px 0px 0px;
-  }
-
-/* 
-.sub-category, .subtitle {
-  font-weight: bold;
 }
-*/
+  
+.caption {
+   color: white;
+   font-size: 14px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   box-sizing: border-box;
+   padding: 8px;
+}
+
+.subtitle {
+	font-size:11px;
+	text-transform: uppercase;
+	margin: 0 0 4px 2px;
+	font-family: 'Open Sans'
+}
+
+.intro {
+	width: $body-width;
+	font-size:16px;
+	margin: 0px 0 45px 0; 
+}
+
 
 /*---   Sidebar   ---*/
 
 
 header .site-title{
-	font-family: "Freight Sans Bold", "Freight Sans Bold", sans-serif;
+	/*font-family: "Open Sans Semibold", sans-serif;*/
     font-size: 40px;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
     line-height: 1;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 header nav {
-
 	float: left;
 	max-width: $menu-width;
     line-height: 1.8;
 	font-size: 12px;
-	/*margin-bottom: 40px;*/
-
+	
 	a {
       text-decoration: none;
 	  color:#000;
@@ -78,7 +96,7 @@ header nav {
 /*---   Portfolio Grid   ---*/
 
 .page-content	{
-	margin-left: 220px;
+	margin-left: $menu-width;
 	
 	a {
       text-decoration: none;
@@ -86,46 +104,63 @@ header nav {
 	}
 }
 
-.school-group {
-  width: 100%;
-  max-height: 400px;
-  display: inline-flex;
-  flex-wrap: wrap;
-  /*justify-content: space-between;*/
-}
-
 .grid {
-	
 	width: $body-width;
 	display: inline-block;
 }
 
-/*
-.grid > div,  {
-  max-width: 48%;
+.school-group {
+	width: 100%;
+	max-height: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 5px;
+	
+	.uw {
+	  border-left: 2px solid;
+	  border-color: $uw-color;
+	}
+	
+	.mit {
+	  border-left: 2px solid;
+	  border-color: $mit-color;
+	}
+	
+	.mc {
+	  border-left: 2px solid;
+	  border-color: $mc-color;
+	}
 }
-*/
 
-.tile-big{
-  width:350px;
-  
-  img, .caption {
-    margin-right: 0px;
-  }  
-}
-
-.tile-small {
-  width:200px;
-  height:200px;
-  
-  img, .caption {
-    margin-left: 10px; /*fix for rows with no tile-big*/ 
-  }  
-}
-
-.small-img {
-	/*width: 80%;*/
-	display:block;
+.tile {
+	position: relative;
+	margin: 0 10px 10px 0;
+	box-sizing: border-box;
+	
+	&.tall {
+	  width: 310px;
+      height: 310px;
+	  .caption {width: 310px;}
+	}
+		
+	&.wide {
+	  width: 310px;
+      height: 150px;
+	  .caption {width: 310px;}
+	}
+		
+	&.small {
+	  width: 150px;
+      height: 150px;
+	  .caption {width: 150px;}
+	}
+	
+	.caption {
+	  box-sizing: border-box;
+	  position: absolute; 
+	  bottom: 0px; 
+	  left: 0px; 
+	} 
 }
 
 /*---   Lists & Links   ---*/

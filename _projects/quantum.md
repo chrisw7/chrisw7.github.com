@@ -1,12 +1,12 @@
 ---
-title: MIS Capacitors
+title: Quantum in Python
 layout: page
 school: University of Waterloo
-order: 3
+order: 5
 years: Spring 2017 - Spring 2018
-img: mis.png
+img: qho.png
 links:
-  - "[BBC - Close-Up: Swimming in Berne’s fast-flowing city river](http://www.bbc.co.uk/news/world-europe-10893835)"
+  - "[DAQ software on github ](http://www.bbc.co.uk/news/world-europe-10893835)"
 ---
 
 

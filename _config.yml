@@ -1,10 +1,8 @@
 # basic options
 title: Chiristopher Williams
-author: Chris
-email: chris.w.2@live.com
-description: A wonderful site
+description: Homepage & portfolio for Christopher Williams
 github_username:  chrisw7
-baseurl: "/portfolio"
+email: chris.w.2@live.com
 
 collections:
    projects:

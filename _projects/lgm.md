@@ -1,10 +1,10 @@
 ---
-title: Phase-separating Liquid Gated Membranes
+title: Gated Membranes
 layout: page
 school: Harvard/MIT
 order: 2
 years: SEP 2015 - APR 2016
-tile: lgm.png
+img: lgm.png
 subtitle: TechConnect National Innovation award-winning tunable membrane technology 
 links:
   - "[BBC - Close-Up: Swimming in Berne’s fast-flowing city river](http://www.bbc.co.uk/news/world-europe-10893835)"

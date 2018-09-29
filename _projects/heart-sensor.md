@@ -1,11 +1,11 @@
 ---
-title: Conformable Heart Sensors
+title: Graphene-putty Heart Sensors
 layout: page
 school: University of Waterloo
 order: 1
 years: Spring 2017 - Spring 2018
+img-tall: heart-sensor.png
 tile: heart-sensor.png
-tile-tall: heart-sensor.png
 links:
   - "[DAQ software on github ](http://www.bbc.co.uk/news/world-europe-10893835)"
 ---
