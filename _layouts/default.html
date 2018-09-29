@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 	<html>
-		{% include head.html %}
+		{% if page.title contains "travel" %} 
+			{% include map-head.html %}
+		{% else %}
+			{% include head.html %}
+		{% endif %}
 		<body>
 			{% include sidebar.html %}
 			<div class="page-content">
-			
+			{% unless page.title == "portfolio" %}
+			<h2> {{ page.title }} </h2>
+			{% endunless %}
 			{{ content }}
 			
 			</div><!-- /.container -->

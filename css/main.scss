@@ -1,7 +1,7 @@
 ---
 ---
 
-$body-width: 640px;
+$body-width: 860px;
 $menu-width: 220px;
 $medium-size: 16px;
 $uw-color: #000;
@@ -10,8 +10,12 @@ $mc-color: #ee7600;
 
 /*---   General  ---*/
 
+html {
+  min-width: 1000px;
+}
+
 body {
-    margin: 40px auto 80px 40px;
+    margin: 40px auto 80px 40px; /*check*/
     width: $body-width;
 	position: relative;
 	line-height: 1.6;
