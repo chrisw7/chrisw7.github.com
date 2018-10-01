@@ -1,7 +1,7 @@
 ---
-title: Performant Graphene Membranes
+title: Graphene Membranes
 layout: page
-school: Harvard/MIT
+school: MIT/Harvard
 order: 1
 years: SEP 2015 - APR 2016
 img-wide: graphene.png

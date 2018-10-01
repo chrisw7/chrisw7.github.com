@@ -1,7 +1,7 @@
 ---
 title: Gated Membranes
 layout: page
-school: Harvard/MIT
+school: MIT/Harvard
 order: 2
 years: SEP 2015 - APR 2016
 img: lgm.png

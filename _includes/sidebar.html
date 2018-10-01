@@ -11,9 +11,9 @@
 			</div>
 			{% if my_page.title == "portfolio" %}
 				<div class="menu-portfolio">	
-					{% assign schools = "University of Waterloo, Harvard/MIT, McMaster University" | split: ", " %}
+					{% assign schools = "University of Waterloo, MIT/Harvard, McMaster University" | split: ", " %}
 					{%for school in schools %}
-					<div class="category{% case school %}{% when 'University of Waterloo' %} uw"{% when 'Harvard/MIT' %} mit"{% when 'McMaster University' %} mc"{% endcase %}>{{ school }}</div>
+					<div class="category{% case school %}{% when 'University of Waterloo' %} uw"{% when 'MIT/Harvard' %} mit"{% when 'McMaster University' %} mc"{% endcase %}>{{ school }}</div>
 						<ul>
 						{% assign projects = site.projects | where: "school", school | sort: "order" %}
 						{% for project in projects %}

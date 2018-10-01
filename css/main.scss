@@ -7,6 +7,7 @@ $medium-size: 16px;
 $uw-color: #000;
 $mit-color: #cd143c;
 $mc-color: #ee7600;
+$light-blue:#31849b;
 
 /*---   General  ---*/
 
@@ -15,15 +16,21 @@ html {
 }
 
 body {
-    margin: 40px auto 80px 40px; /*check*/
+    margin: 30px auto 80px 30px; /*check*/
     width: $body-width;
 	position: relative;
 	line-height: 1.6;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	
+	h1 {
+	  padding: 40px 0 5px 0;	
+	}
 	
 	.uw {color: $uw-color;}
 	.mit {color: $mit-color;}
 	.mc {color: $mc-color;}
+	.blue {color: $light-blue;}
 }
 
 .category {
@@ -48,7 +55,7 @@ body {
 }
 
 .intro {
-	width: $body-width;
+	width: calc($body-width-$menu-width);
 	font-size:16px;
 	margin: 0px 0 45px 0; 
 }
@@ -59,7 +66,7 @@ body {
 
 header .site-title{
 	/*font-family: "Open Sans Semibold", sans-serif;*/
-    font-size: 40px;
+    font-size: 35px;
     letter-spacing: 0px;
     line-height: 1;
 	margin-bottom: 20px;
@@ -87,7 +94,6 @@ header nav {
 	  margin: 0 0 10px 0;
 	  padding: 0;
 	  list-style: none;
-	  
 	  li a {color: #999;}
 	}
 	
@@ -168,7 +174,13 @@ header nav {
 }
 
 /*---   Lists & Links   ---*/
-	
+.amcharts-chart-div a {
+	position:absolute !important;
+	text-align: right !important;
+	right: 5px !important;
+	top: 5px !important;
+}
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
