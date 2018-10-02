@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-	<html>
-		{% if page.title contains "travel" %} 
-			{% include map-head.html %}
-		{% else %}
+	<html> 
 			{% include head.html %}
-		{% endif %}
 		<body>
 			{% include sidebar.html %}
 			<div class="page-content">
-			
-			<h1> {{ page.title }} </h1>
+			<div class = "header">
+				<h1 style="display: inline;" id="page-title">{{ page.title }}</h1>
+				{% if page.dates %}
+					<h5 class= "subtitle" style="display: inline; float:right">{{ page.dates }}</h5>
+				{% endif %}	
+			</div>
 			{{ content }}
-			
 			</div><!-- /.container -->
 			<footer>
 	    		<ul>

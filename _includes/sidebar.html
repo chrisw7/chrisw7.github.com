@@ -1,6 +1,6 @@
 <header>
 	<nav>
-	<div class="site-title"><a href="{{ site.baseurl }}/"><span style="font-family: 'Open Sans Light';">Chris</span></br><span style="font-family: 'Open Sans Semibold'; color:#31849b;">Williams</span></a></div>
+	<div class="site-title"><a href="{{ site.baseurl }}/"><span style="font-family: 'Open Sans Light';">Chris</span><br><span style="font-family: 'Open Sans Semibold'; color:#31849b;">Williams</span></a></div>
 		{% for my_page in site.pages %}
 			<div class="category">
 			{% if page.title != my_page.title %}
@@ -17,7 +17,7 @@
 						<ul>
 						{% assign projects = site.projects | where: "school", school | sort: "order" %}
 						{% for project in projects %}
-							<li><a href="{{ project.url | prepend: site.baseurl }}"> {{ project.title  }} </a></li></br>
+							<li><a href="{{ project.url | prepend: site.baseurl }}"> {{ project.title  }} </a></li><br>
 						{% endfor %}
 						</ul>
 					{% endfor %}

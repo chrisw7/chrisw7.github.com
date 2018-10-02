@@ -296,8 +296,8 @@ var map = AmCharts.makeChart( "mapdiv", {
 		"title": "Boston, MA",
 		"latitude": 42.3601,
 		"longitude": -71.0589,
-		"color": "#000",
-		"width": 4
+		"color": "#31849b",
+		"width": 6
 	}, {
 		"type": "circle",
 		"title": "Buffalo, NY",
@@ -321,7 +321,7 @@ var map = AmCharts.makeChart( "mapdiv", {
 		"width": 4
 	}, {
 		"type": "circle",
-		"title": "New Hampshire",
+		"title": "Dorchester, NH",
 		"latitude": 43.794361,
 		"longitude": -71.933573,
 		"color": "#000",
@@ -350,8 +350,8 @@ var map = AmCharts.makeChart( "mapdiv", {
 	}, {
 		"type": "circle",
 		"title": "Portland",
-		"latitude": 45.5122,
-		"longitude": -122.6587,
+		"latitude": 43.6591,
+		"longitude": -70.2568,
 		"color": "#000",
 		"width": 4
 	},

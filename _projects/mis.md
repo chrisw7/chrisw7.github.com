@@ -3,27 +3,27 @@ title: MIS Capacitors
 layout: page
 school: University of Waterloo
 order: 3
-years: Spring 2017 - Spring 2018
+dates: Fall '16
 img: mis.png
 links:
-  - "[BBC - Close-Up: Swimming in Berne’s fast-flowing city river](http://www.bbc.co.uk/news/world-europe-10893835)"
+  - "[Final Report: Characterization & Testing (NE 340L)](https://drive.google.com/file/d/1dLPsEwxrJ83Iu4ofvs-TpWYAwjS6XhxA/view?usp=sharing)"
 ---
 
+<div class="intro uw">PECVD deposited metal-insulator-semiconductor thin-film capacitors</div>
+
+The objective of this lab was to develop an understanding of microfabrication and thin film deposition techniques including wafer cleaning and handling, PECVD deposition, RIE (etching), and lithographic patterning.
+
+This understanding was applied to create a 5x5 array of MIS (metal-insulator-semiconductor) capacitors with 5 diameters ranging from 200 μm to 500 μm. 
+
+Devices were characterized using manual probe station equipped with parametric analyzers and precision source-measurement units (for I-V and C-V measurements), as well as an ellipsometer and DEKTAK (for thickness a surface profile characterization, respectively).
+
+<img style="align:center;display: block; margin: 0px auto;" src="images/mis-schematic.png">
+<div style="color:#999;text-align: center;">Basic schematic for an MIS capacitor.</div>
+
+According to the ellipsometer, the thickness, <em>d</em> of the SiN dielectric of our capacitors were measured to be <b>~100-200 nm</b>. These values were in agreement with similar thickness approximations using a DEKTAK stylus profiler and color chart.
+
+The capacitance of the smallest capacitors (200 μm in diameter) peaked at roughly 25 pF, whereas the largest 400 μm capacitors reached capacitances closer to 50 pF. Most of the variance in capacitance for devices with the same diameter could be explained by thickness of the deposited film not being perfectly uniform.
 
 
-Despite advances that have seen sensors become ubiquitous in modern tech, how we interact with sensing technologies has for the most part not changed. 
-The demand for novel flexible and conformable sensors is particularly present in health and wellness sensors designed to be compatible with humans.
 
-<iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/w9HVaffnI7U?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
- 
-By combining the malleability of Silly Putty with the extraordinary properties of graphene we created robust & ultra-conformable elastoresistive sensors capable of detecting arterial blood pressures.
-
-
-![Research Poster](images/sensor.png)
-
-
-Apart from participating in device fabrication and testing, I also used my previous R&D experience to plan and execute our design approach. As team lead, I spearheaded efforts to summarize our work in a 50-page report and was responsible for preparing our research poster & seminar presentation.
-
-
-![Research Poster](images/poster.png)
 

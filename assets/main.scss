@@ -1,0 +1,265 @@
+---
+---
+
+$body-width: 860px;
+$menu-width: 220px;
+$medium-size: 16px;
+$uw-color: #000;
+$mit-color: #cd143c;
+$mc-color: #ee7600;
+$light-blue:#31849b;
+
+/*---   General  ---*/
+
+html {
+  min-width: 1000px;
+}
+
+body {
+    margin: 30px auto 80px 30px; /*check*/
+    width: $body-width;
+	position: relative;
+	line-height: 1.6;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	
+	.header {
+	  padding: 40px 0 5px 0;	
+	}
+	
+	.uw {color: $uw-color;}
+	.mit {color: $mit-color;}
+	.mc {color: $mc-color;}
+	.blue {color: $light-blue;}
+}
+
+.category {
+	font-weight: bold;
+	padding: 2px 0px 0px 0px;
+}
+  
+.caption {
+   color: white;
+   font-size: 14px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   box-sizing: border-box;
+   padding: 8px;
+}
+
+.subtitle {
+	font-size:11px;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-family: 'Open Sans';
+	vertical-align: bottom;
+}
+
+.grid .subtitle {margin: 0 0 4px 2px;}
+
+.intro {
+	margin: 17px;
+	font-family: 'Open Sans';
+	font-size:18px;
+	text-align: center;
+}
+
+h1#page-title {
+	margin: 0px ; 
+	padding: 0px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 2em;
+	font-weight: bold;	
+}
+
+/*---   GitHub table/quote styles   ---*/
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 0;
+}
+
+table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+}
+
+table th {
+  font-weight: 600;
+}
+
+table th,
+table td {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+table tr {
+  background-color: #fff;
+  border-top: 1px solid #c6cbd1;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+
+blockquote {
+  padding: 0 1em;
+  color: #6a737d;
+  border-left: 0.25em solid #dfe2e5;
+}
+
+
+
+hr {
+
+  
+  height: 0.25em;
+  padding: 0;
+  margin: 24px 0;
+  background-color: #e1e4e8;
+  border: 0;
+}
+
+/*---   Sidebar   ---*/
+
+
+header .site-title{
+	/*font-family: "Open Sans Semibold", sans-serif;*/
+    font-size: 35px;
+    letter-spacing: 0px;
+    line-height: 1;
+	margin-bottom: 20px;
+}
+
+header nav {
+	float: left;
+	max-width: $menu-width;
+    line-height: 1.8;
+	font-size: 12px;
+	
+	a {
+      text-decoration: none;
+	  color:#000;
+	}
+	
+	.category a:hover {
+		color: #222222;
+		text-decoration: none;
+		background: #fce234;
+	}
+
+	
+	ul {
+	  margin: 0 0 10px 0;
+	  padding: 0;
+	  list-style: none;
+	  li a {color: #999;}
+	}
+	
+	.menu-portfolio {
+	  margin: 5px 0px 0px 15px;
+	}
+}
+
+
+/*---   Portfolio Grid   ---*/
+
+.page-content	{
+	margin-left: $menu-width;
+	
+	a {
+      text-decoration: none;
+	  color: $light-blue;
+	}
+	
+	a:hover {text-decoration: underline;}
+}
+
+.grid {
+	width: $body-width;
+	display: inline-block;
+}
+
+.school-group {
+	width: 100%;
+	max-height: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 5px;
+	
+	.uw {
+	  border-left: 2px solid;
+	  border-color: $uw-color;
+	}
+	
+	.mit {
+	  border-left: 2px solid;
+	  border-color: $mit-color;
+	}
+	
+	.mc {
+	  border-left: 2px solid;
+	  border-color: $mc-color;
+	}
+}
+
+.tile {
+	position: relative;
+	margin: 0 10px 10px 0;
+	box-sizing: border-box;
+	
+	&.tall {
+	  width: 310px;
+      height: 310px;
+	  .caption {width: 310px;}
+	}
+		
+	&.wide {
+	  width: 310px;
+      height: 150px;
+	  .caption {width: 310px;}
+	}
+		
+	&.small {
+	  width: 150px;
+      height: 150px;
+	  .caption {width: 150px;}
+	}
+	
+	.caption {
+	  box-sizing: border-box;
+	  position: absolute; 
+	  bottom: 0px; 
+	  left: 0px; 
+	} 
+}
+
+/*---   Lists & Links   ---*/
+.amcharts-chart-div a {
+	position:absolute !important;
+	text-align: right !important;
+	right: 5px !important;
+	top: 5px !important;
+}
+
+ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+}
+
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}

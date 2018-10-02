@@ -3,25 +3,29 @@ title: MEMS Actuators
 layout: page
 school: University of Waterloo
 order: 2
-years: Spring 2017 - Spring 2018
+years: Fall '17 - Spring '18
 img: mems.png
 links:
-  - "[BBC - Close-Up: Swimming in Berne’s fast-flowing city river](http://www.bbc.co.uk/news/world-europe-10893835)"
+  - "[Final Report: Simulation, Design, & Mask Layout (NE 454B)](https://drive.google.com/file/d/1hpBYdqkcSY4YI5j8JSYS9zaJWSoEmoq2/view?usp=sharing)"
+  - "[Final Report: Fabrication & Testing (NE 455B)](https://drive.google.com/file/d/1trSlCzs4N6U5Git5GH5y-ioEEWotoaBc/view?usp=sharing)"
 ---
 
-Despite advances that have seen sensors become ubiquitous in modern tech, how we interact with sensing technologies has for the most part not changed. 
-The demand for novel flexible and conformable sensors is particularly present in health and wellness sensors designed to be compatible with humans.
+<div class="intro uw">Surface micromachined electrostatic/electrothermal MEMS actuators</div>
 
-<iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/w9HVaffnI7U?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
- 
-By combining the malleability of Silly Putty with the extraordinary properties of graphene we created robust & ultra-conformable elastoresistive sensors capable of detecting arterial blood pressures.
+After designing, modeling, and simulating the behavior of electrostatic and electrothermal actuators of our own design in NE 454B, the objective of NE 455B was to implement and test these designs using the same surface micromachining techniques introduced to us in NE454B (using the appropriate equipment in the Nanotechnology Engineering Cleanroom and Metrology Suite).
 
+In the case of the electrostatic actuator, applying a voltage to the upper (suspended) plate of the capacitor results in attractive forces that cause the free plate to deflect towards the fixed fixed plate.
 
-![Research Poster](images/sensor.png)
+For the electrothermal actuator, heat coming from the flow of current at the electrical contacts causes thermal expansion in the high aspect ratio beams, which in turn causes a deflection in the central shaft.
 
+<div style="display:inline-block; width: 300px; padding: 15px;">
+	<img src="images/mems-comsol.png">
+	<div style="color:#999;text-align: left;">COMSOL model of 4-beam electrostatic actuator (μm).</div>
+</div>
 
-Apart from participating in device fabrication and testing, I also used my previous R&D experience to plan and execute our design approach. As team lead, I spearheaded efforts to summarize our work in a 50-page report and was responsible for preparing our research poster & seminar presentation.
+<div style="display:inline-block; width: 300px;">
+	<img src="images/mems2.png" style="align:center;display: block; margin: 15px auto;">
+	<div style="color:#999;text-align: justify;">Simulated surface temps for electrothermal actuator</div>
+</div>
 
-
-![Research Poster](images/poster.png)
-
+Upon completing the fabrication of these devices, the behavior and electrical characteristics of the devices were tested and compared to the values predicted by the models and corresponding simulations
