@@ -3,7 +3,7 @@ title: MIS Capacitors
 layout: page
 school: University of Waterloo
 order: 3
-dates: Fall '16
+dates: Fall 2016
 img: mis.png
 links:
   - "[Final Report: Characterization & Testing (NE 340L)](https://drive.google.com/file/d/1dLPsEwxrJ83Iu4ofvs-TpWYAwjS6XhxA/view?usp=sharing)"

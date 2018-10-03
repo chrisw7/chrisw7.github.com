@@ -3,7 +3,7 @@ title: Silly Putty Heart Sensors
 layout: page
 school: University of Waterloo
 order: 1
-dates: Spring '17 - Spring '18
+dates: Sep 2017 - Apr 2018
 img-tall: heart-sensor.png
 tile: heart-sensor.png
 links:

@@ -3,7 +3,7 @@ title: MEMS Actuators
 layout: page
 school: University of Waterloo
 order: 2
-years: Fall '17 - Spring '18
+dates: Sep 2017 - Apr 2018
 img: mems.png
 links:
   - "[Final Report: Simulation, Design, & Mask Layout (NE 454B)](https://drive.google.com/file/d/1hpBYdqkcSY4YI5j8JSYS9zaJWSoEmoq2/view?usp=sharing)"
