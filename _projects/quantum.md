@@ -3,6 +3,7 @@ title: Quantum in Python
 layout: page
 mathjax: true
 school: University of Waterloo
+categories: python
 order: 5
 years: Spring 2017 - Spring 2018
 img: qho.png
@@ -256,7 +257,7 @@ for i in range(steps):
 def pltProb(i):
     #Generate Plot    
     fig, ax1 = plt.subplots()
-    plt.title(&#39;Probability Distribution of Wavepacket Through Time&#39;)
+    plt.title(&#39;Probability Distribution of Wavepacket Over Time&#39;)
     plt.xlabel(&#39;x [Å]&#39;)
     plt.ylabel(&#39;$\mathregular{|\Psi|^2}$&#39;)
     ax2 = ax1.twinx()
@@ -285,7 +286,7 @@ ax.set_xlim(-0.5,0.5)
 ax.set_ylim(0, 0.15)
 
 line, = ax.plot([],[], lw=2);
-plt.title(&#39;Probability Distribution of Wavepacket Through Time&#39;)
+plt.title(&#39;Probability Distribution of Wavepacket Over Time&#39;)
 
 def init():
     ax.legend([&#39;$\Psi^2(x)$&#39;], loc=4)

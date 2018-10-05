@@ -8,7 +8,7 @@ var map = AmCharts.makeChart( "mapdiv", {
   "dataProvider": {
 	"map": "worldLow",
 	//starting zoom
-	"zoomLevel": 2.13,
+	"zoomLevel": 2.75,
 	"zoomLongitude": -69,
 	"zoomLatitude": 36,
 	"areas": [

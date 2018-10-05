@@ -2,6 +2,7 @@
 title: Silly Putty Heart Sensors
 layout: page
 school: University of Waterloo
+categories: "RD bio MATLAB"
 order: 1
 dates: Sep 2017 - Apr 2018
 img-tall: heart-sensor.png
@@ -23,13 +24,12 @@ By combining the malleability of Silly Putty with the extraordinary properties o
 ![Research Poster](images/sensor.png)
 <div style="color:#999;text-align: center;">Characterization of our nanocomposite sensors confirmed the presence of sub-micron graphene sheets that imbued the graphene-infused putty with a pressure-dependent conductivity (without rendering it stiff and brittle).</div>
 
-Inspired by a <a href="http://science.sciencemag.org/content/354/6317/1257">publication</a> from a group at Trinity College Dublin who were the first to demonstrate the potential of the nanocomposite, this design project was the culmination of all of the skills I'd acquired from as an undergraduate. My experience <a href="/graphene">fabricating graphene devices</a> at <span class="mit">MIT</span> proved invaluable throughout the project, as did my time <a href="/ecg">prototyping and designing biomedical technology</a> under Prof. Deen at <span class="mc">McMaster University</span>. Our project was supervised by <a href="https://uwaterloo.ca/chemistry/people-profiles/vivek-maheshwari">Prof. Vivek Maheshwari</a> whose expertise in wearable sensors, multi-functional materials & devices, and nanoscale electrodes also contributed to the overall success of the project.
+Inspired by a <a href="http://science.sciencemag.org/content/354/6317/1257">publication</a> from a group at Trinity College Dublin who were the first to demonstrate the potential of the nanocomposite, this design project was the culmination of all of the skills I'd acquired from as an undergraduate. 
 
+My experience <a href="/graphene">fabricating graphene devices</a> at <span class="mit">MIT</span> proved invaluable throughout the project, as did my time <a href="/ecg">prototyping and designing biomedical technology</a> under Prof. Deen at <span class="mc">McMaster University</span>. Our project was supervised by <a href="https://uwaterloo.ca/chemistry/people-profiles/vivek-maheshwari">Prof. Vivek Maheshwari</a> whose expertise in wearable sensors, multi-functional materials & devices, and nanoscale electrodes also contributed to the overall success of the project.
 
 <iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/w9HVaffnI7U?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
 <div style="color:#999;text-align: center;">Project presentation to a panel of professors for the 2018 Nanotechnology Engineering Capstone Design Symposium</div>
-
-
 
 Instead of using CVD graphene, the graphene used in our prototype sensors was obtained by means of the liquid-phase exfoliation of graphite powder in a stabilizing organic solvent. The resulting graphene solution was mixed with condensation-polymerized PDMS to form the elastoresistive putty.
 
@@ -37,7 +37,3 @@ As project lead, I spearheaded our team's efforts and summarized our work in a 5
 
 <iframe src="https://drive.google.com/file/d/1DkCD2oqYFvzf0BqwaTBsedLkBu5OIjoM/preview" width="640" height="480"></iframe>
 <div style="color:#999;text-align: center;">Research poster displayed at 2018 Nanotechnology Engineering Capstone Design Symposium</div>
-
-
-
-

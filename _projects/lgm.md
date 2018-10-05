@@ -2,6 +2,7 @@
 title: Tunable Membranes
 layout: page
 school: MIT/Harvard
+categories: RD bio MATLAB
 order: 2
 dates: May 2017 - Aug 2017
 img: lgm.png
@@ -18,7 +19,7 @@ links:
 
 <iframe width="640" height="360" src="https://player.vimeo.com/video/171811789?color=1cafeb&title=0&byline=0&portrait=0&player_id=171811789&autoplay=1" frameborder="0" allowfullscreen></iframe>
 <div style="color:#999;text-align: center;">
-As demonstrated in the video, introducing a gating layer to the membrane surface has the effect of reducing the pressure (and thus energy) required to drive the feed through the membrane while also mitigating the effects of fouling.</div>
+Introducing a gating layer to the membrane surface has the effect of reducing the pressure (and thus energy) required to drive the feed through the membrane while also mitigating the effects of fouling.</div>
 
 My time with the Aizenberg group at the Wyss Institute/Harvard SEAS was spent developing a novel bioinspired membrane technology that received the TechConnect National Innovation Award for in 2016. 
 
