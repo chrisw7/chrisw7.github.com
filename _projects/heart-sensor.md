@@ -2,7 +2,7 @@
 title: Silly Putty Heart Sensors
 layout: page
 school: University of Waterloo
-categories: "RD bio MATLAB"
+categories: RD bio MATLAB
 order: 1
 dates: Sep 2017 - Apr 2018
 img-tall: heart-sensor.png

@@ -3,7 +3,7 @@ title: MIS Capacitors
 layout: page
 school: University of Waterloo
 categories: RD
-order: 3
+order: 6
 dates: Fall 2016
 img: mis.png
 links:

@@ -27,7 +27,7 @@ The main challenge associated with using inexpensive sensors to provide feedback
  
 <div style="color:#999;text-align: center;">
   <img src="images/drift.png">
-  <b>Left:</b> The spectral analysis technique used to reconstruct a drift-free displacement signal from an accelerometer is shown above using real compression data (implemented in MATLAB).
+  The spectral analysis technique used to reconstruct a drift-free displacement signal from an accelerometer is shown above using real compression data (implemented in MATLAB).
 </div>
 
 To circumvent this issue, I identified a novel digital signal processing technique in a 2016 PLOS One <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0150139">publication</a> that takes advantage of the periodic nature of CPR compressions and the fast Fourier transform (fft) algorithm to extract fundamental information from finite segments of accelerometer data that can be used to reconstruct a drift free signal in real time. Determining the rate of compression from this periodic reconstructed signal was trivial.

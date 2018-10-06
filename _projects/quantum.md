@@ -4,7 +4,7 @@ layout: page
 mathjax: true
 school: University of Waterloo
 categories: python
-order: 5
+order: 2
 years: Spring 2017 - Spring 2018
 img: qho.png
 links:

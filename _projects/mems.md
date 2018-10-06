@@ -3,7 +3,7 @@ title: MEMS Actuators
 layout: page
 school: University of Waterloo
 categories: RD
-order: 2
+order: 5
 dates: Sep 2017 - Apr 2018
 img: mems.png
 links:
