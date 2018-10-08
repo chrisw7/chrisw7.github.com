@@ -1402,7 +1402,7 @@ html {
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.42857143;
   color: #000;
   background-color: #fff;
@@ -1998,7 +1998,7 @@ pre code {
 
 @media (min-width: 768px) {
   .container {
-    width: 768px;
+    width: 640px;
   }
 }
 
@@ -2010,7 +2010,7 @@ pre code {
 
 @media (min-width: 1200px) {
   .container {
-    width: 1140px;
+    width: 640px;
   }
 }
 

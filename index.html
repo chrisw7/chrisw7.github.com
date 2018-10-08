@@ -1,63 +1,59 @@
 ---
 layout: default
-title: about me & portfolio
+title: portfolio
 ---
 
-<div style="height: 500px; font-size: 3em; font-family: 'Consolas'; font-weight: bold;">
-	<p id="landing">
-		pls
-	</p>
-	<span id="typed"></span>
-	<script>
-		$(document).ready(function(){
-			var typed =  new Typed('#typed', {
-				stringsElement: '#landing'
-			})
-		})
-	</script>
-</div>
-
-see for yourself
-<div style="color:#999; text-align: center;">filter by tag: <span id="RD">R&D</span> | <span id="bio">Biomedical</span>
-	| <span id="data">Data Science & Automation</span> (<span id="MATLAB">MATLAB</span> / <span id="python">Python</span>
-	/ <span id="C">C++</span>)
+<div style="text-align: center;">
+	hover to filter by category: <span style="color:#999;"><span id="RD">R&D</span> | <span id="bio">Biomedical</span> | <span id="MATLAB">MATLAB</span> | <span id="python">Python</span> | <span id="C">C++</span> | <span id="LabVIEW">LabVIEW</span></span>
 </div>
 
 <script>
 		$('#RD').hover(function () {
 			$(".tile:not(.RD)").addClass("fade");
+			this.style.color = "black";
 		}, function () {
 			$(".tile:not(.RD)").removeClass("fade");
+			this.style.color = "#999";
 		});
 	
 		$('#bio').hover(function () {
 			$(".tile:not(.bio)").addClass("fade");
+			this.style.color = "black";
 		}, function () {
 			$(".tile:not(.bio)").removeClass("fade");
+			this.style.color = "#999";
 		});
 	
 		$('#MATLAB').hover(function () {
 			$(".tile:not(.MATLAB)").addClass("fade");
+			this.style.color = "black";
 		}, function () {
 			$(".tile:not(.MATLAB)").removeClass("fade");
+			this.style.color = "#999";
 		});
 	
 		$('#C').hover(function () {
 			$(".tile:not(.C)").addClass("fade");
+			this.style.color = "black";
 		}, function () {
 			$(".tile:not(.C)").removeClass("fade");
+			this.style.color = "#999";
 		});
 	
 		$('#python').hover(function () {
 			$(".tile:not(.python)").addClass("fade");
+			this.style.color = "black";
 		}, function () {
 			$(".tile:not(.python)").removeClass("fade");
+			this.style.color = "#999";
 		});
 	
-		$('#data').hover(function () {
-			$(".tile:contains(.MATLAB)").add(".tile:contains(.C)").add(".tile:contains(.C)").addClass("fade");
+		$('#LabVIEW').hover(function () {
+			$(".tile:not(.LabVIEW)").addClass("fade");
+			this.style.color = "black";
 		}, function () {
-			$(".tile:contains(.MATLAB)").add(".tile:contains(.C)").add(".tile:contains(.C)").removeClass("fade");
+			$(".tile:not(.LabVIEW)").removeClass("fade");
+			this.style.color = "#999";
 		});
 	</script>
 

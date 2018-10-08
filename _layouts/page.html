@@ -2,10 +2,12 @@
 layout: default
 ---
 <article>{{ content }}</article>{% if page.links %}—	
+<div class="links">
 <ul>
-Links:
-{% for link in page.links %}
+  Links:
+  {% for link in page.links %}
   <li>{{ link | markdownify | remove: "<p>" | remove: "</p>" }}</li>
 {% endfor %}
 </ul>
 {% endif %}
+</div>

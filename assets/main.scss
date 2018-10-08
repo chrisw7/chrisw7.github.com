@@ -1,5 +1,5 @@
----
 --- 
+---
 $body-width: 860px;
 $menu-width: 220px;
 $medium-size: 16px;
@@ -25,6 +25,12 @@ body {
 
 	code {
 		background-color: #f9f2f4;
+	}
+
+	.links ul {
+		margin: 0 0 10px 0;
+		padding: 0;
+		list-style: none;
 	}
 
 	.header {
@@ -169,21 +175,27 @@ hr {
 
 header .site-title {
 	/*font-family: "Open Sans Semibold", sans-serif;*/
-	font-size: 35px;
+	font-size: 3.5em;
 	letter-spacing: 0px;
 	line-height: 1;
 	margin-bottom: 20px;
 }
 
 header nav {
-	height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: $menu-width; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 20px;
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
+	height: 100%;
+	/* Full-height: remove this if you want "auto" height */
+	width: $menu-width;
+	/* Set the width of the sidebar */
+	position: fixed;
+	/* Fixed Sidebar (stay in place on scroll) */
+	z-index: 1;
+	/* Stay on top */
+	top: 0;
+	/* Stay at the top */
+	left: 20px;
+	overflow-x: hidden;
+	/* Disable horizontal scroll */
+	padding-top: 20px;
 	max-width: $menu-width;
 	line-height: 1.8;
 	font-size: 1em;
@@ -205,8 +217,13 @@ header nav {
 		padding: 0;
 		list-style: none;
 
-		li a {
-			color: #999;
+
+		li {
+			display: inline;
+
+			a {
+				color: #999;
+			}
 		}
 	}
 
@@ -243,6 +260,11 @@ header nav {
 	a {
 		width: 100%;
 		height: 100%
+	}
+
+	#mapdiv a {
+		width: auto;
+		height: auto;
 	}
 
 	.caption {
@@ -325,13 +347,27 @@ header nav {
 	top: 5px !important;
 }
 
-nav ul li,
-footer ul li {
-	display: inline;
-	margin-right: 20px;
-}
-
 footer {
 	margin: 20px 0 0 $menu-width;
-	font-size: .8em;
+	font-size: .9em;
+
+	a {
+		text-decoration: none;
+		color: #000;
+	}
+
+	ul {
+		margin: 0 0 10px 0;
+		padding: 0;
+		list-style: none;
+
+		li {
+			margin-right: 20px;
+			display: inline;
+
+			a {
+				color: #999;
+			}
+		}
+	}
 }

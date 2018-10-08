@@ -5,7 +5,6 @@
 	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 	<link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css">
-	
 	{% if page.title contains "travel" %}
 		<link rel="stylesheet" href="{{ site.baseurl }}/assets/ammap/ammap.css" type="text/css" media="all" />
 		<script src="{{ site.baseurl }}/assets/ammap/ammap.js" type="text/javascript"></script>
@@ -13,9 +12,8 @@
 		<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.1/dist/jquery.fancybox.min.css" />
 		<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.1/dist/jquery.fancybox.min.js"></script>
-	{% elsif page.title contains "about" %}
+	{% elsif page.title contains "portfolio" %}
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-		<script src="/assets/src/typed.js"></script>
 	{% elsif page.mathjax %}
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"></script>
 		<link rel="stylesheet" href="{{ site.baseurl }}/assets/jupyter.css">
