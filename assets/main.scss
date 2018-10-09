@@ -66,6 +66,7 @@ body {
 
 .category {
 	font-weight: bold;
+	font-size: 1.1em;
 	padding: 2px 0px 0px 0px;
 }
 
@@ -82,7 +83,7 @@ body {
 .subtitle {
 	font-size: 11px;
 	font-weight: normal;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	vertical-align: bottom;
 
 	&.date {
@@ -92,13 +93,13 @@ body {
 }
 
 .container .subtitle {
-	margin: 15px 0 4px 2px;
+	margin: 10px 0 4px 2px;
 	text-transform: uppercase;
 }
 
 .intro {
 	margin: 17px;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	text-align: center;
 }
@@ -106,7 +107,7 @@ body {
 h1#page-title {
 	margin: 0px;
 	padding: 0px;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Open Sans Semibold', Helvetica, Arial, sans-serif;
 	font-size: 2em;
 	font-weight: bold;
 }
@@ -174,10 +175,9 @@ hr {
 
 
 header .site-title {
-	/*font-family: "Open Sans Semibold", sans-serif;*/
-	font-size: 3.5em;
+	font-size: 3.7em;
 	letter-spacing: 0px;
-	line-height: 1;
+	line-height: 1.1;
 	margin-bottom: 20px;
 }
 
@@ -268,6 +268,7 @@ header nav {
 	}
 
 	.caption {
+		font-family: "Open Sans", sans-serif;
 		box-sizing: border-box;
 		position: absolute;
 		width: 100%;
@@ -337,7 +338,7 @@ header nav {
 
 /*---   Lists & Links   ---*/
 .fade {
-	opacity: 0.5;
+	opacity: 0.4;
 }
 
 .amcharts-chart-div a {

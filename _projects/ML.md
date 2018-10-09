@@ -3,7 +3,7 @@ title: Coursera Machine Learning
 layout: page
 school: University of Waterloo
 categories: MATLAB
-order: 4
+order: 3
 dates: April 2017
 img-wide: ml.png
 links:

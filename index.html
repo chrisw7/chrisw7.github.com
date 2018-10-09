@@ -3,65 +3,22 @@ layout: default
 title: portfolio
 ---
 
-<div style="text-align: center;">
-	<b>hover to filter by category:</b> <span style="color:#999;"><span id="RD">R&D</span> | <span id="bio">Biomedical</span> | <span id="MATLAB">MATLAB</span> | <span id="python">Python</span> | <span id="C">C++</span> | <span id="LabVIEW">LabVIEW</span></span>
-</div>
-
-<script>
-		$('#RD').hover(function () {
-			$(".tile:not(.RD)").addClass("fade");
-			this.style.color = "black";
-		}, function () {
-			$(".tile:not(.RD)").removeClass("fade");
-			this.style.color = "#999";
-		});
-	
-		$('#bio').hover(function () {
-			$(".tile:not(.bio)").addClass("fade");
-			this.style.color = "black";
-		}, function () {
-			$(".tile:not(.bio)").removeClass("fade");
-			this.style.color = "#999";
-		});
-	
-		$('#MATLAB').hover(function () {
-			$(".tile:not(.MATLAB)").addClass("fade");
-			this.style.color = "black";
-		}, function () {
-			$(".tile:not(.MATLAB)").removeClass("fade");
-			this.style.color = "#999";
-		});
-	
-		$('#C').hover(function () {
-			$(".tile:not(.C)").addClass("fade");
-			this.style.color = "black";
-		}, function () {
-			$(".tile:not(.C)").removeClass("fade");
-			this.style.color = "#999";
-		});
-	
-		$('#python').hover(function () {
-			$(".tile:not(.python)").addClass("fade");
-			this.style.color = "black";
-		}, function () {
-			$(".tile:not(.python)").removeClass("fade");
-			this.style.color = "#999";
-		});
-	
-		$('#LabVIEW').hover(function () {
-			$(".tile:not(.LabVIEW)").addClass("fade");
-			this.style.color = "black";
-		}, function () {
-			$(".tile:not(.LabVIEW)").removeClass("fade");
-			this.style.color = "#999";
-		});
-	</script>
-
 <div class="container">
 	{% assign schools = "University of Waterloo, MIT/Harvard, McMaster University" | split: ", " %}
 	{%for school in schools %}
+	{% if school == "University of Waterloo" %}
+	<div style="display: flex;">
+		<div class="subtitle {% case school %}{% when 'University of Waterloo' %}uw" {% when 'MIT/Harvard' %}mit"{% when
+		 'McMaster University' %}mc"{% endcase %}><br>{{ school }}</div>
+		<div style="text-align: right; margin: 8px 0 5px auto; font-family: 'Open Sans', Helvetica, Arial, sans-serif;">
+			<b>hover to filter ⌄<br></b> <span style="color:#999;"><span id="RD">R&D</span> | <span id="bio">Biomedical</span>
+				| <span id="MATLAB">MATLAB</span> | <span id="python">Python</span> | <span id="C">C++</span> | <span id="LabVIEW">LabVIEW</span></span>
+		</div>
+	</div>
+	{% else %}
 	<div class="subtitle {% case school %}{% when 'University of Waterloo' %}uw" {% when 'MIT/Harvard' %}mit"{% when
 	 'McMaster University' %}mc"{% endcase %}>{{ school }}</div>
+	{% endif %}
 	<div class="grid tiles">
 		{% assign projects = site.projects | where: "school", school | sort: "order" %}
 		{% for project in projects %}
@@ -94,4 +51,65 @@ title: portfolio
 	</div>
 	{% endfor %}
 </div>
-</div>
+
+<script>
+	$('#RD').hover(function () {
+		$(".tile:not(.RD)").addClass("fade");
+		this.style.color = "black";
+		this.style.background = "#fce234";
+	}, function () {
+		$(".tile:not(.RD)").removeClass("fade");
+		this.style.color = "#999";
+		this.style.background = "none";
+	});
+
+	$('#bio').hover(function () {
+		$(".tile:not(.bio)").addClass("fade");
+		this.style.color = "black";
+		this.style.background = "#fce234";
+	}, function () {
+		$(".tile:not(.bio)").removeClass("fade");
+		this.style.color = "#999";
+		this.style.background = "none";
+	});
+
+	$('#MATLAB').hover(function () {
+		$(".tile:not(.MATLAB)").addClass("fade");
+		this.style.color = "black";
+		this.style.background = "#fce234";
+	}, function () {
+		$(".tile:not(.MATLAB)").removeClass("fade");
+		this.style.color = "#999";
+		this.style.background = "none";
+	});
+
+	$('#C').hover(function () {
+		$(".tile:not(.C)").addClass("fade");
+		this.style.color = "black";
+		this.style.background = "#fce234";
+	}, function () {
+		$(".tile:not(.C)").removeClass("fade");
+		this.style.color = "#999";
+		this.style.background = "none";
+	});
+
+	$('#python').hover(function () {
+		$(".tile:not(.python)").addClass("fade");
+		this.style.color = "black";
+		this.style.background = "#fce234";
+	}, function () {
+		$(".tile:not(.python)").removeClass("fade");
+		this.style.color = "#999";
+		this.style.background = "none";
+	});
+
+	$('#LabVIEW').hover(function () {
+		$(".tile:not(.LabVIEW)").addClass("fade");
+		this.style.color = "black";
+		this.style.background = "#fce234";
+	}, function () {
+		$(".tile:not(.LabVIEW)").removeClass("fade");
+		this.style.color = "#999";
+		this.style.background = "none";
+	});
+</script>

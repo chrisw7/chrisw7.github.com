@@ -3,7 +3,7 @@ title: NE Class Survey
 layout: page
 school: University of Waterloo
 categories: python
-order: 7
+order: 6
 dates: Spring 2018
 img: ness.png
 links:

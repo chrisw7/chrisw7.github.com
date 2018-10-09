@@ -1,8 +1,8 @@
 <header>
 	<nav>
-	<div class="site-title"><a href="{{ site.baseurl }}/"><span style="font-family: 'Open Sans Light';">Chris</span><br><span style="font-family: 'Open Sans Semibold'; color:#31849b;">Williams</span></a></div>
+	<div class="site-title"><a href="{{ site.baseurl }}/"><span style="font-family: 'Open Sans Light';">Chris</span><br><span style="font-family: 'Open Sans Semibold';">Williams</span></a></div>
 		{% for my_page in site.pages %}
-			<div class="category">
+			<div style="font-size: 1.15em; font-weight:bold; font-family: 'Open Sans', Helvetica, Arial, sans-serif;" class="category">
 			{% if page.title != my_page.title %}
 				<a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
 			{% else %}
