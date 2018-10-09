@@ -18,13 +18,16 @@ I completed all of the projects and quizzes (using MATLAB) and finished with a g
 <img style="align:center;display: block; margin: 0px auto;" src="images/ocr.png">
 <div style="color:#999;text-align: center;">A subset of the data (originally from the MNIST dataset) used to train a neural network for basic character classification.</div>
 
+
 <b>Topics covered in the course included:</b>
-- Single & Multivariate Regression
-- Logistic Regression
-- Neural Networks
-- Machine Learning System Design
-- Support Vector Machines (SVMs)
-- Unsupervised Learning (k-means)
-- Anomoly Detection
-- Large Scale Machine Learning
-- Photo OCR (example)
+<ul style="columns:2; list-style-position: inside;">
+  <li>Single & Multivariate Regression</li>
+  <li>Logistic Regression</li>
+  <li>Neural Networks</li>
+  <li>Machine Learning System Design</li>
+  <li>Support Vector Machines (SVMs)</li>
+  <li>Unsupervised Learning (k-means)</li>
+  <li>Anomoly Detection</li>
+  <li>Large Scale Machine Learning</li>
+  <li>Photo OCR (example)</li>
+</ul>

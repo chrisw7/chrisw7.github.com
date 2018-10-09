@@ -10,7 +10,7 @@ links:
   - "[NE Course Calendar](http://www.ucalendar.uwaterloo.ca/0708/COURSE/course-NE.html)"
 ---
 
-As the VP of Networking & Outrach for the Nanotechnology Engineering Student Society, my main undertaking was desigining, executing, and analyzing a survey of the graduating nanotechnology engineering class. 
+As the VP of Networking & Outreach for the Nanotechnology Engineering Student Society, my main undertaking was desigining, executing, and analyzing a survey of the graduating nanotechnology engineering class. 
 
 ![Core Courses](/images/survey.png)
 

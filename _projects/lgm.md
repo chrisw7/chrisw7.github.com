@@ -2,7 +2,7 @@
 title: Tunable Membranes
 layout: page
 school: MIT/Harvard
-categories: RD bio MATLAB
+categories: RD bio MATLAB LabVIEW
 order: 2
 dates: May 2017 - Aug 2017
 img: lgm.png

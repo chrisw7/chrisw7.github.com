@@ -1,5 +1,5 @@
 ---
-title: Silly Putty Heart Sensors
+title: Graphene Putty Heart Sensors
 layout: page
 school: University of Waterloo
 categories: RD bio MATLAB
