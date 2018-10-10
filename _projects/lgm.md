@@ -25,9 +25,9 @@ My time with the Aizenberg group at the Wyss Institute/Harvard SEAS was spent de
 
 By modifying the surface of a membrane with a stable oil interface, these liquid gated membranes can be tuned such that feed selectively passes through the membrane depending on the nature of the liquid-liquid interactions at the membrane surface and the transmembrane pressure. I was supervised by Jack Alvarenga and Dr. Mughees Khan of the <a href="https://aizenberglab.seas.harvard.edu/group-members">Aizenberg group</a> for the duration of my internship.
 
-Although my primary responsibility involved developing an infrastructure for quantifying the performance of the membranes, I was also responsible for maintaining a small cell culture for use as a biolgocial feed source and presenting a research update to Prof. Aizenberg and the rest of the group at the end of my internship. 
+Although my primary responsibility involved developing an infrastructure for quantifying the performance of the membranes, I was also responsible for maintaining a small cell culture for use as a biological feed source and presenting a research update to Prof. Aizenberg and the rest of the group at the end of my internship. 
 
-The experiments and data acquisition pipeline I developled laid the groundwork for the continutued development of the technology and continued to be used in my absence. A summary of recent developments in the form of a research update will appear in the Oct 2018 issue of APL Materials.
+The experiments and data acquisition pipeline I developed laid the groundwork for the continued development of the technology and continued to be used in my absence. A summary of recent developments in the form of a research update will appear in the Oct 2018 issue of APL Materials.
 
 <div style="width: 600px; padding: 10px 20px; background-color: rgba(205,20,6,0.1); margin-bottom: 10px;">
 <img style="margin: 15px 0px 5px 15px; float: right;" src="images/harvard.jpg">

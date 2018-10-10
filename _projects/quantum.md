@@ -18,10 +18,10 @@ links:
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="1-The-Quantum-Harmonic-Oscillator">The Quantum Harmonic Oscillator<a class="anchor-link" href="#1-The-Quantum-Harmonic-Oscillator">&#182;</a></h3><p>Applying the Hamiltonian Operator on a given wavefuntion, $\Psi$ results in the Schrodinger Equation,</p>
+<h3 id="1-The-Quantum-Harmonic-Oscillator">The Quantum Harmonic Oscillator<a class="anchor-link" href="#1-The-Quantum-Harmonic-Oscillator">&#182;</a></h3><p>Applying the Hamiltonian Operator on a given wave function, $\Psi$ results in the Schrödinger Equation,</p>
 <p>$$ i\hbar  {\frac {\partial }{\partial t}}\Psi (\mathbf {r} ,t)={\hat {H}}\Psi (\mathbf {r} ,t) $$</p>
-<p>for which solutions (to the time-independent Schrodinger eqn) exist for certan 'eigenenergies'. To visualize these eigenenergies and their corresponding eigenfunctions for a quantum harmonic oscillator, we must first construct the system in which the quantum mechanical particle will exist.</p>
-<h3 id="Constructing-a-parabolic-potential">Constructing a parabolic potential<a class="anchor-link" href="#Constructing-a-parabolic-potential">&#182;</a></h3><p>To start, import required libraries and define the requred constants used to define potential energy of the system.</p>
+<p>for which solutions (to the time-independent Schrödinger eqn) exist for certan 'eigenenergies'. To visualize these eigenenergies and their corresponding eigenfunctions for a quantum harmonic oscillator, we must first construct the system in which the quantum mechanical particle will exist.</p>
+<h3 id="Constructing-a-parabolic-potential">Constructing a parabolic potential<a class="anchor-link" href="#Constructing-a-parabolic-potential">&#182;</a></h3><p>To start, import required libraries and define the required constants used to define potential energy of the system.</p>
 
 </div>
 </div>
@@ -184,7 +184,7 @@ $$</p>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Visualizing-a-time-dependent-wavepacket">Visualizing a time-dependent wavepacket<a class="anchor-link" href="#Visualizing-a-time-dependent-wavepacket">&#182;</a></h3><p>Using our solutions to the eigenvalue problem presented by the Schrodinger equation we can create a wavepacket in the center of the potential by weighting the eigenfunctions with a Gaussian distribution and re-introducing the time-dependent term.</p>
-<p>Whereas the momentum of a single wave can be known with certainty (consequently implying that its position in space is uncertain and that its wavefunction is evenly distributed throughout space), the superposition of a number of waves plane waves results in a distribution of momentums and a wave 'packet' whose position is increasingly localized in space. Here we use a normal/Gaussian distrution of waves to create a 'Gaussian' wavepacket. The general form of a wavepacket (from <a href="https://www.wikipedia.com/en/Wave_packet">Wikipedia</a>) can be expressed as:</p>
+<p>Whereas the momentum of a single wave can be known with certainty (consequently implying that its position in space is uncertain and that its wave function is evenly distributed throughout space), the superposition of a number of waves plane waves results in a distribution of momentums and a wave 'packet' whose position is increasingly localized in space. Here we use a normal/Gaussian distribution of waves to create a 'Gaussian' wavepacket. The general form of a wavepacket (from <a href="https://www.wikipedia.com/en/Wave_packet">Wikipedia</a>) can be expressed as:</p>
 <p>$$
 u(x,t) = \frac{1}{\sqrt{2\pi}} \int^{\infty}_{-\infty} A(k) ~ e^{i(kx-\omega(k)t)}dk
 $$</p>
