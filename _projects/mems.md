@@ -1,9 +1,9 @@
 ---
-title: MEMS Actuators
+title: Microfab MEMS Actuators
 layout: page
 school: University of Waterloo
 categories: RD
-order: 2
+order: 7
 dates: Sep 2017 - Apr 2018
 img-wide: mems-comsol.png
 links:

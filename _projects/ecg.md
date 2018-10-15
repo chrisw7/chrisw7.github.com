@@ -1,9 +1,9 @@
 ---
-title: Contactless ECG Electrodes
+title: Contactless ECGs
 layout: page
 school: McMaster University
 categories: RD bio
-order: 2
+order: 3
 dates: Feb 2015 - May 2016
 img: ecg.png
 links:

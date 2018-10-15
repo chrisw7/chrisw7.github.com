@@ -3,7 +3,7 @@ title: Tunable Membranes
 layout: page
 school: MIT/Harvard
 categories: RD bio MATLAB LabVIEW
-order: 2
+order: 5
 dates: May 2017 - Aug 2017
 img: lgm.png
 subtitle: TechConnect National Innovation award-winning tunable membrane technology 

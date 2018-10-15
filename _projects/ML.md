@@ -1,9 +1,9 @@
 ---
-title: Coursera Machine Learning
+title: Machine Learning (Stanford Online)
 layout: page
 school: University of Waterloo
 categories: MATLAB
-order: 3
+order: 10
 dates: April 2017
 img-wide: ml.png
 links:
@@ -16,7 +16,7 @@ In order to equip myself with more modern data analysis tools I enrolled in Stan
 I completed all of the projects and quizzes (using MATLAB) and finished with a grade of 95.7%.
 
 <img style="align:center;display: block; margin: 0px auto;" src="images/ocr.png">
-<div style="color:#999;text-align: center;">A subset of the data (originally from the MNIST dataset) used to train a neural network for basic character classification.</div>
+<div style="color:#999;text-align: center;">A subset of the data used to train a neural network for basic character classification (originally from the MNIST dataset).</div>
 
 
 <b>Topics covered in the course included:</b>

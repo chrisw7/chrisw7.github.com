@@ -3,7 +3,7 @@ title: NE Class Survey
 layout: page
 school: University of Waterloo
 categories: python
-order: 6
+order: 12
 dates: Spring 2018
 img: ness.png
 links:
@@ -14,6 +14,6 @@ As the VP of Networking & Outreach for the Nanotechnology Engineering Student So
 
 ![Core Courses](/images/survey.png)
 
-With only ~55% participation we elected not to publish the results of the survey publicly, but I was still able to make some interesting observations from my preliminary analysis.
+With only ~55% class participation we elected not to publish the results of the survey publicly, but I was still able to share some interesting observations from my preliminary analysis (such as the graph above).
 
-To analyze the 25k line spreadsheet of data generated from the survey I relied heavily on <b>Excel PivotCharts</b> and the python `pandas` library for analysis.
+To analyze the 25k line spreadsheet of data generated from the survey I relied heavily on <b>Excel PivotCharts</b> and the python `pandas` library.
