@@ -1,16 +1,16 @@
 ---
-title: NE Class Survey
+title: NESS Class Survey
 layout: page
 school: University of Waterloo
 categories: python
-order: 12
+order: 9
 dates: Spring 2018
 img: ness.png
 links:
   - "[NE Course Calendar](http://www.ucalendar.uwaterloo.ca/0708/COURSE/course-NE.html)"
 ---
 
-As the VP of Networking & Outreach for the Nanotechnology Engineering Student Society, my main undertaking was designing, executing, and analyzing a survey of the graduating nanotechnology engineering class. 
+As the VP of Networking & Outreach for the Nanotechnology Engineering Student Society (NESS), my main undertaking was designing, executing, and analyzing a survey of the graduating nanotechnology engineering class. 
 
 ![Core Courses](/images/survey.png)
 

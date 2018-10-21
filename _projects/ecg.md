@@ -3,8 +3,8 @@ title: Contactless ECGs
 layout: page
 school: McMaster University
 categories: RD bio
-order: 3
-dates: Feb 2015 - May 2016
+order: 2
+dates: May 2014 - Aug 2014
 img: ecg.png
 links:
   - "[<em>Engineering Report</em>: Testing and Analysis of Non-Contact Capacitive ECG Electrodes](https://drive.google.com/file/d/1w8gcHWIsueGnjyQA3nJztNd76eYv51aN/view?usp=sharing)"

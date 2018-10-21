@@ -3,7 +3,7 @@ title: Tunable Membranes
 layout: page
 school: MIT/Harvard
 categories: RD bio MATLAB LabVIEW
-order: 5
+order: 10
 dates: May 2017 - Aug 2017
 img: lgm.png
 subtitle: TechConnect National Innovation award-winning tunable membrane technology 
@@ -11,6 +11,7 @@ links:
   - "[Press Release: Bioinspired, energy efficient filtration mechanism wins TechConnect award](https://wyss.harvard.edu/bioinspired-energy-efficient-filtration-mechanism-wins-techconnect-award/)"
   - "[Aizenberg Lab: Group Members](https://aizenberglab.seas.harvard.edu/group-members)"
   - "[Engineering Report: Biofouling and Performance of Novel Liquid Gated Membranes](https://drive.google.com/file/d/1mW5dcv55prKET-HVl2sdj-IJXKS7RD9n/view?usp=sharing)"
+  - "[LabVIEW DAQ Repository on GitHub](https://github.com/chrisw7/lgm-daq)"
 ---
 
 <div class="intro mit">
@@ -25,7 +26,7 @@ My time with the Aizenberg group at the Wyss Institute/Harvard SEAS was spent de
 
 By modifying the surface of a membrane with a stable oil interface, these liquid gated membranes can be tuned such that feed selectively passes through the membrane depending on the nature of the liquid-liquid interactions at the membrane surface and the transmembrane pressure. I was supervised by Jack Alvarenga and Dr. Mughees Khan of the <a href="https://aizenberglab.seas.harvard.edu/group-members">Aizenberg group</a> for the duration of my internship.
 
-Although my primary responsibility involved developing an infrastructure for quantifying the performance of the membranes, I was also responsible for maintaining a small cell culture for use as a biological feed source and presenting a research update to Prof. Aizenberg and the rest of the group at the end of my internship. 
+Although my primary responsibility involved developing a data <a href="https://github.com/chrisw7/lgm-daq">infrastructure</a> for quantifying the performance of the membranes, I was also responsible for maintaining a small cell culture for use as a biological feed source and presenting a research update to Prof. Aizenberg and the rest of the group at the end of my internship. 
 
 The experiments and data acquisition pipeline I developed laid the groundwork for the continued development of the technology and continued to be used in my absence. A summary of recent developments in the form of a research update will appear in the Oct 2018 issue of APL Materials.
 

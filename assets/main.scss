@@ -1,4 +1,4 @@
---- 
+---
 ---
 $body-width: 860px;
 $menu-width: 220px;
@@ -72,12 +72,31 @@ body {
 
 .caption {
 	color: white;
-	font-size: 14px;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	background: rgb(0, 0, 0);
 	/* fallback color */
 	background: rgba(0, 0, 0, 0.65);
+
 	box-sizing: border-box;
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	left: 0px;
+}
+
+.square .caption {
+	font-size: 16px;
 	padding: 7px;
+}
+
+.wide .caption {
+	font-size: 16px;
+	padding: 7px;
+}
+
+.small .caption {
+	font-size: 13.5px;
+	padding: 5px 2px 5px 5px;
 }
 
 .subtitle {
@@ -178,7 +197,7 @@ header .site-title {
 	font-size: 3.7em;
 	letter-spacing: 0px;
 	line-height: 1.1;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 
 header nav {
@@ -265,15 +284,6 @@ header nav {
 	#mapdiv a {
 		width: auto;
 		height: auto;
-	}
-
-	.caption {
-		font-family: "Open Sans", Helvetica, Arial, sans-serif;
-		box-sizing: border-box;
-		position: absolute;
-		width: 100%;
-		bottom: 0px;
-		left: 0px;
 	}
 
 	.wide {

@@ -3,7 +3,7 @@ title: Machine Learning (Stanford Online)
 layout: page
 school: University of Waterloo
 categories: MATLAB
-order: 10
+order: 6
 dates: April 2017
 img-wide: ml.png
 links:
@@ -11,7 +11,7 @@ links:
   - "[Course Website](https://www.coursera.org/learn/machine-learning)"
 ---
 
-In order to equip myself with more modern data analysis tools I enrolled in Stanford Online's popular Machine Learning course (offered through Coursera) before starting my internship. 
+In order to equip myself with more modern data analysis tools I enrolled in Stanford Online's popular Machine Learning course (offered through Coursera) before starting my internship. As of Fall 2018, I'm currently in the process of rewriting the course assignments in python (interactive jupyter notebooks).
 
 I completed all of the projects and quizzes (using MATLAB) and finished with a grade of 95.7%.
 

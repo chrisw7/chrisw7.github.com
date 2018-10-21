@@ -3,9 +3,9 @@ title: SmartCPR
 layout: page
 school: McMaster University
 categories: RD bio MATLAB
-order: 2
-years: FEB 2015 - MAY 2016
-img: cpr.png
+order: 4
+dates: Feb 2017 - May 2017
+img-wide: cpr.png
 links:
   - "[<em>Reference Paper</em>: Feedback on the Rate and Depth of Chest Compressions during CPR Using Only Accelerometers](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0150139)"
   - "[Project Repository on GitHub](https://github.com/chrisw7/SMART-Moyo)"

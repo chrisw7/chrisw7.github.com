@@ -1,11 +1,11 @@
 ---
-title: CVD Graphene Membranes
+title: Graphene Membranes
 layout: page
 school: MIT/Harvard
 categories: RD LabVIEW
-order: 4
+order: 3
 dates: Sep 2015 - Apr 2016
-img-wide: graphene.png
+img: graphene.png
 links:
   - "[Publication: <em>Single-Layer Graphene Membranes Withstand Ultrahigh Applied Pressure - ACS Nano</em>](https://pubs.acs.org/doi/abs/10.1021/acs.nanolett.7b00442)"
   - "[Press Release: Graphene holds up under high pressure - phys.org](https://phys.org/news/2017-04-graphene-high-pressure.html)"
