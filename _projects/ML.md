@@ -1,5 +1,5 @@
 ---
-title: Machine Learning (Stanford Online)
+title: Machine Learning (Stanford University)
 layout: page
 school: University of Waterloo
 categories: MATLAB
